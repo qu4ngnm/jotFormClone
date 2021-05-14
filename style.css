@@ -1,0 +1,191 @@
+:root {
+  --form-color: #edc951;
+  --sub-color: #846454;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+a {
+  color: aliceblue;
+}
+a:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+div.ui-datepicker-div {
+  background-color: aquamarine !important;
+  padding: 5px;
+}
+div.ui-datepicker-title {
+  display: flex;
+  justify-content: space-between;
+}
+a.ui-datepicker-next {
+  float: right;
+  cursor: pointer;
+}
+.father {
+  background-color: #eb6841;
+}
+.main::before {
+  content: " ";
+  background-image: url("./img/header-logo.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 178px 140px;
+  height: 140px;
+  width: 100%;
+  background-position: top center !important;
+  margin-top: 60px;
+}
+
+.main {
+  width: 690px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  margin: auto;
+}
+.form-page {
+  background-color: var(--form-color);
+  list-style: none;
+}
+.form-items {
+  background-color: var(--form-color);
+  color: #6a4a3c;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+.form-required {
+  background-color: var(--form-color);
+  color: red;
+}
+.form-01 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 30px 20px;
+  color: #6a4a3c;
+  border-bottom: 2px solid rgb(248, 246, 227);
+}
+.form-02 {
+  font-size: 14px;
+  font-weight: 500px;
+  background-color: var(--form-color);
+}
+.employee {
+  background-color: var(--form-color);
+  margin-top: 3px;
+}
+.input-firstName {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--form-color);
+  font-size: 12px;
+  padding: 2px 0px;
+}
+
+.input-lastName {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 5px;
+  font-size: 12px;
+  background-color: var(--form-color);
+}
+.form-input-hoten-act {
+  display: flex;
+  background-color: var(--form-color);
+}
+.form-err-message {
+  display: none;
+}
+.form-err-arr {
+  border: 20px solid;
+  border-color: transparent transparent red transparent;
+  position: absolute;
+}
+.input-email-item {
+  background-color: var(--form-color);
+}
+.input-email {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--form-color);
+}
+.input-email-act {
+  background-color: var(--form-color);
+}
+.secure-num {
+  background-color: var(--form-color);
+}
+.secure-nums-input {
+  background-color: var(--form-color);
+}
+.input-nums {
+}
+.hasDatepicker {
+  background-color: white;
+}
+.input-date {
+  background-color: var(--form-color);
+}
+
+.form-checkbox {
+  background-color: var(--form-color);
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  background-color: var(--form-color);
+}
+.form-checkbox-item {
+  display: flex;
+  justify-content: left;
+}
+.canvas-signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-submit {
+  text-align: center;
+  padding: 10px 30px;
+  border: 1px solid #c2b7b3;
+  background-color: #f6f6f6;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #414247;
+  position: sticky;
+  bottom: 0;
+  z-index: 999;
+  font-size: 13px;
+}
+.info {
+  display: flex;
+  justify-content: center !important;
+  color: #bfbfbf;
+}
+.cre-own-form {
+  padding: 5px 20px;
+  border: 1px solid #208920;
+  margin: 8px 5px;
+  border-radius: 3px;
+  background-color: #208920;
+}
+.footer-text {
+  padding: 5px 20px;
+  margin: 8px 5px;
+}
+#employ-signature {
+  cursor: pointer;
+  border: 1px solid rgb(22, 21, 21);
+}
+#witness-signature {
+  cursor: pointer;
+  border: 1px solid rgb(22, 21, 21);
+}
